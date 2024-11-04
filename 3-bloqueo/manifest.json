@@ -1,0 +1,21 @@
+{
+  "name": "Bloqueo Bloqueo",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Redireccionar pagina web.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://example.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "description": "Habilitar 'focus mode' en paginas de documentacion de Chrome (developer.chrome.com/docs/extensions).",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+    }
+  },
+  "permissions": ["scripting", "activeTab"]
+}
